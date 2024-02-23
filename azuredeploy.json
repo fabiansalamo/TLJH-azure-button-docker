@@ -11,7 +11,7 @@
         },
         "virtualMachineName": {
             "type": "string",
-            "defaultValue": "TLJH-Ubuntu",
+            "defaultValue": "TLJH-vm",
             "metadata": {
                 "description": "Virtual machine name. Use a meaningful name."
             }
@@ -81,7 +81,7 @@
             "metadata": {
                 "description": "The URL where the install script is located. If you do not require additional plugins or custom installs leave the default"
             },
-            "defaultValue": "https://raw.githubusercontent.com/trallard/TLJH-azure-button/main/scripts/install.sh"
+            "defaultValue": "https://raw.githubusercontent.com/fabiansalamo/TLJH-azure-button-docker/main/scripts/install.sh"
         },
         "dataDiskSize": {
             "type": "string",
